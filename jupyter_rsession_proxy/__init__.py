@@ -88,7 +88,7 @@ def setup_rserver():
     server_process = {
         'command': _get_cmd,
         'environment': _get_env,
-        'rewrite_response': rewrite_auth,
+        # 'rewrite_response': rewrite_auth,
         'launcher_entry': {
             'title': 'RStudio',
             'icon_path': get_icon_path()
